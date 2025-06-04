@@ -108,7 +108,7 @@ const generateSP1Proof = async (playerName) => {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
     
-    const response = await fetch('http://localhost:3000/api/generate-proof', {
+    const response = await fetch('http://152.53.164.253:3000/api/generate-proof', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -378,6 +378,7 @@ window.addEventListener('load', async function() {
     'http://127.0.0.1:3000/health',
     'http://localhost:1000/health',
     'http://127.0.0.1:1000/health',
+    'http://152.53.164.253:3000',
     '/health'
   ];
   
