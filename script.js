@@ -151,7 +151,7 @@ window.shareOnTwitter = function(playerName, proofHash) {
         `🎲 I played the Pig Game and generated a SP1 Zero-Knowledge Proof @SuccinctLabs! ` +
         `🏆 ${playerName} won and the result is verified with hash: ${proofHash.substring(0, 16)}... ` +
         `🔮 Powered by @SuccinctLabs SP1 zkVM! ` +
-        `🚀 Script by @Hidayahhtaufik – Try it yourself https://github.com/hidayahhtaufik/pig_game_succinct`
+        `🚀 Script by @Hidayahhtaufik – Try it yourself https://pig-game-succinct.auranode.xyz/`
     );
 
   window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank', 'width=600,height=400');
