@@ -1,0 +1,17 @@
+[package]
+name = "pig-game-proof-script"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pig_game_prove"
+path = "src/bin/pig_game_prove.rs"
+
+[dependencies]
+sp1-sdk = "4.0.0"
+clap = { version = "4.5", features = ["derive"] }
+hex = "0.4"
+chrono = { version = "0.4", features = ["serde"] }
+
+[build-dependencies]
+sp1-build = "4.0.0"

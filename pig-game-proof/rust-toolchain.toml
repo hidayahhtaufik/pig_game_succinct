@@ -1,0 +1,3 @@
+[toolchain]
+channel = "succinct"
+components = ["llvm-tools", "rustc-dev"]
